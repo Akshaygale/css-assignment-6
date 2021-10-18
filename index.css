@@ -1,0 +1,148 @@
+body{
+    background-image: url(./sharadesert.jpg);
+   margin: 0px;
+}
+.main-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.menubar{
+    
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 60px;   
+}
+.menubar a{
+    color: white;
+    text-decoration: none;
+}
+.menubar a:hover{
+    color: rgba(250, 90, 90, 0.877);  
+}
+.menu{
+    display: flex;
+    margin-left:30px ;
+}
+.region{
+    display: flex;
+    margin-left:30px ;
+}
+.about{
+    display: flex;
+    margin-left:30px ;
+}
+.icon{
+    display: flex;
+    margin-left:30px ;
+}
+.camel {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 25px;  
+}
+.camel-img{
+    height: 50px;
+    width: 50px;
+}
+
+.sahara {
+ /* padding: 200px 20px; */
+    width: 600px;
+    color: white;
+    font-size: 17px;
+    margin-left: 18px;
+}
+.saharacard{
+    margin-top: 250px;
+    padding: 20px;
+}
+.saharacard>span{
+    font-size: 50px;
+}
+button>a{
+    text-decoration: none;
+    color: black;
+}
+button>a:hover{
+    color: cornsilk;
+}
+button{
+    padding: 10px;
+    width: 184px;
+    height: 46px;
+    background: white; 
+    border: none;
+    border-radius: 23px;
+    font-size: 14px;
+    margin-top: 18px;
+}
+button:hover{
+    background:rgb(114, 215, 240);  
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: space-evenly;
+    margin-left: 45px;
+}
+.card1{
+    background-image: url(./pic-1.png);
+}
+.card2{
+    background-image: url(./pic-2.png);  
+}
+.card3{
+    background-image: url(./pic-3.png);
+}
+.card4{
+    background-image: url(./pic-4.png);
+}
+.card{
+    color: rgb(74 20 3);
+    width: 250px;
+    height:300px;
+    border-radius: 12px;
+    margin-bottom:20px;
+    z-index: 1;
+    background-size: cover;
+    transition: transform .5s;
+}
+.container div:hover{
+    transform: translateY(-10px);
+}
+
+@media (max-width:856px) {
+    
+.sahara {
+    color: white;
+    font-size: 17px;
+    margin-left: 60px;
+}
+.saharacard{
+    margin-top: 0px;
+    padding: 20px;
+}
+.card{
+    width: 500px; 
+}
+.camel{
+    margin-left: 72px;
+}
+.container{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    align-items: center;
+}
+}
